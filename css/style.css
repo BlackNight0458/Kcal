@@ -1,17 +1,23 @@
 *{
     margin: 0px;
     padding: 0px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
 html,body{
     width: 100%;
     height: 100%;  
     background: linear-gradient(to right, rgb(64, 59, 74), rgb(231, 233, 187));
-    min-width: 1000px;
+    min-width: 800px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container{
-    width: 800px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -19,7 +25,11 @@ html,body{
     font-weight: 700;
     font-size: 25px;
     color: rgb(28, 148, 218);
-
+    margin:auto;
+    border: 1px solid black;
+    border-radius: 1em;
+    opacity: 0.7;
+    background: linear-gradient(to right, rgb(93, 68, 145), rgb(31, 123, 177));
 }
 .Sex_selection{
     margin-top: 30px;
@@ -35,7 +45,7 @@ html,body{
 }
 
 .text{
-    color: blue;
+    color: rgb(33, 131, 46);
     text-align: center;
 }
 .text>input{

@@ -10,16 +10,16 @@ function int(){
         Sex_selection[i].onclick = function(){
             if(this.index == 0){
                 if(data[0].value != '' && data[1].value != '' && data[2].value != ''){
-                    basics.value = 67 + 13.73 * Number(data[0].value) + 5 * Number(data[1].value) - 6.9 * Number(data[2].value);
+                    basics.value = parseFloat(67 + 13.73 * Number(data[0].value) + 5 * Number(data[1].value) - 6.9 * Number(data[2].value)).toFixed(3)
                 }else{
-                    alert('请输入完整的，体重(kg)-身高(cm)-年龄(周岁)')
+                    alert('请输入完整的，体重(kg)-身高(cm)-年龄(周岁)');
                 }
 
             }else if(this.index == 1){
                 if(data[0].value != '' && data[1].value != '' && data[2].value != ''){
-                    661 + 9.6 * Number(data[0].value) + 1.72 * Number(data[1].value) - 4.7 * Number(data[2].value);
+                    basics.value = parseFloat(661 + 9.6 * Number(data[0].value) + 1.72 * Number(data[1].value) - 4.7 * Number(data[2].value)).toFixed(3);
                 }else{
-                    alert('请输入完整的，体重(kg)-身高(cm)-年龄(周岁)')
+                    alert('请输入完整的，体重(kg)-身高(cm)-年龄(周岁)');
                 }
             }
         }
@@ -43,11 +43,9 @@ function int(){
             }else if(this.index == 8){
                 console.log(this.index)
                 answer.textContent=parseFloat(basics.value*1.8).toFixed(3)+'kcal'
-            }
-             
+            } 
         }
     }
-    
 }
 int();
 
