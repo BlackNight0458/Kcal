@@ -5,11 +5,12 @@
 html,body{
     width: 100%;
     height: 100%;  
-    background: linear-gradient(to right, rgb(64, 59, 74), rgb(231, 233, 187));
+    background: linear-gradient(to right, rgb(125, 111, 155), rgb(51, 107, 139));
     min-width: 800px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0.8;
 }
 .container{
     width: 500px;
@@ -20,18 +21,18 @@ html,body{
     transform: translate(-50%,-50%);
     font-weight: 700;
     font-size: 25px;
-    color: rgb(28, 148, 218);
+    color: rgb(255, 255, 255);
     margin:auto;
-    border: 1px solid black;
     border-radius: 1em;
-    opacity: 0.7;
-    background: linear-gradient(to right, rgb(93, 68, 145), rgb(31, 123, 177));
+    opacity: 1;
+    background-color: rgb(255, 255, 255,0.3);
+    z-index: -1;
 }
 .Sex_selection{
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .Sex_selection>h1{
-    font-size: 30px;
+    font-size: 24px;
     cursor: pointer;
     text-align: center;
     padding: 5px;
@@ -41,28 +42,49 @@ html,body{
 }
 
 .text{
-    color: rgb(33, 131, 46);
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 23px;
 }
 .text>input{
-    width: 100px;
+    width: 50px;
     height: 24px;
     font-size: 22px;
     text-align: center;
+    color: rgb(252, 119, 24);
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+    outline: none;
 }
 .text tag{
     color: rgb(132, 18, 177);
+    font-size: 30px;
 }
-.basics{
-    margin-top: 30px;   
+.container>div>.basics{
+    margin-top: 30px;
+    width: 100px;   
 }
 .motion{
-    color: rgb(20, 143, 112);
-    font-size: 26px;
-    width: 500px;
+    color: rgb(16, 122, 126,0.8);
+    font-size: 25px;
+    width: 400px;
+    margin: auto;
 }
 .answer{
     text-align: center;
-    font-size: 32px;
-    color: chocolate;
+    font-size: 30px;
+    color: rgb(221, 34, 9);
+}
+.energies{
+    margin: auto;
+    text-align: center;
+}
+.energies>div:nth-child(1){
+    color: rgb(207, 186, 154);
+}
+.energies>div:nth-child(2){
+    color: rgb(42, 85, 134);
+}
+.energies>div:nth-child(3){
+    color: rgb(121, 22, 96);
 }
