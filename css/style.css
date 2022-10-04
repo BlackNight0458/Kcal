@@ -30,6 +30,7 @@ html,body{
 }
 .Sex_selection{
     margin-top: 15px;
+    border-bottom: 1px black solid ;
 }
 .Sex_selection>h1{
     font-size: 24px;
@@ -58,7 +59,7 @@ html,body{
 }
 .text tag{
     color: rgb(132, 18, 177);
-    font-size: 30px;
+    font-size: 26px;
 }
 .container>div>.basics{
     margin-top: 30px;
@@ -69,22 +70,38 @@ html,body{
     font-size: 25px;
     width: 400px;
     margin: auto;
-}
-.answer{
     text-align: center;
-    font-size: 30px;
+}
+.motion>.answer{
+    text-align: center;
+    font-size: 22px;
     color: rgb(221, 34, 9);
+    margin-top: 10px;
+    width: 100px;   
+    background-color: rgb(0, 0, 0);
+    height: 24px;
+    outline: none;
+    font-weight: 700;
 }
 .energies{
     margin: auto;
     text-align: center;
+    font-size: 20px;
+    border-top: 1px black solid ;
+    font-weight: 700;
 }
 .energies>div:nth-child(1){
-    color: rgb(207, 186, 154);
+    color: rgb(105, 104, 102);
 }
 .energies>div:nth-child(2){
-    color: rgb(42, 85, 134);
+    color: rgb(201, 167, 145);
 }
 .energies>div:nth-child(3){
-    color: rgb(121, 22, 96);
+    color: rgb(145, 114, 49);
+}
+.motion tag{
+    color: rgb(20, 64, 105);
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
 }

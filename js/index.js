@@ -34,19 +34,19 @@ function int(){
         motion[j].onclick = function(){
             if(this.index == 0){
                 console.log(this.index)
-                answer.textContent=parseFloat(basics.value*1.15).toFixed(3)+'kcal'
+                answer.value=parseFloat(basics.value*1.15).toFixed(3)
             }else if(this.index == 2){
                     console.log(this.index)
-                    answer.textContent=parseFloat(basics.value*1.3).toFixed(3)+'kcal'
+                    answer.value=parseFloat(basics.value*1.3).toFixed(3)
             }else if(this.index == 4){
                 console.log(this.index)
-                answer.textContent=parseFloat(basics.value*1.4).toFixed(3)+'kcal'
+                answer.value=parseFloat(basics.value*1.4).toFixed(3)
             }else if(this.index == 6){
                 console.log(this.index)
-                answer.textContent=parseFloat(basics.value*1.6).toFixed(3)+'kcal'
+                answer.value=parseFloat(basics.value*1.6).toFixed(3)
             }else if(this.index == 8){
                 console.log(this.index)
-                answer.textContent=parseFloat(basics.value*1.8).toFixed(3)+'kcal'
+                answer.value=parseFloat(basics.value*1.8).toFixed(3)
             } 
         }
     }
