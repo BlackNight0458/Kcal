@@ -29,7 +29,7 @@ html,body{
     z-index: -1;
 }
 .Sex_selection{
-    margin-top: 15px;
+    margin-top: 10px;
     border-bottom: 1px black solid ;
 }
 .Sex_selection>h1{
@@ -67,7 +67,7 @@ html,body{
 }
 .motion{
     color: rgb(16, 122, 126,0.8);
-    font-size: 25px;
+    font-size: 23px;
     width: 400px;
     margin: auto;
     text-align: center;
@@ -89,6 +89,7 @@ html,body{
     font-size: 20px;
     border-top: 1px black solid ;
     font-weight: 700;
+    color: rgb(255, 255, 255);
 }
 .energies>div:nth-child(1){
     color: rgb(105, 104, 102);
