@@ -9,9 +9,9 @@ function int(){
     for(var i  = 0; i < Sex_selection.length; i ++){
         Sex_selection[i].index = i;
         Sex_selection[i].onclick = function(){
-            energies[0].textContent = '碳水化合物:'+data[0].value*2+'-'+data[0].value*6+'g' ;
-            energies[1].textContent = '蛋白质:'+parseFloat(Number(1.6*data[0].value).toFixed(2))+'-'+parseFloat(Number(2.2*data[0].value).toFixed(2))+'g' ;
-            energies[2].textContent = '脂肪:'+data[0].value*1+'g' ;
+            energies[0].textContent = '碳水化合物:'+data[0].value*3+'-'+data[0].value*6+'g'+'||'+ data[0].value*2+'-'+data[0].value*3+'g';
+            energies[1].textContent = '蛋白质:'+parseFloat(Number(1.6*data[0].value).toFixed(2))+'-'+parseFloat(Number(2.2*data[0].value).toFixed(2))+'g' +'||'+parseFloat(Number(2*data[0].value).toFixed(2))+'g';
+            energies[2].textContent = '脂肪:'+data[0].value*1+'g' +'||'+data[0].value*0.8+'g';
             if(this.index == 0){
                 if(data[0].value != '' && data[1].value != '' && data[2].value != ''){
                     basics.value = parseFloat(67 + 13.73 * Number(data[0].value) + 5 * Number(data[1].value) - 6.9 * Number(data[2].value)).toFixed(3)
